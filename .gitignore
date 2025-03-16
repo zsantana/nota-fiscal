@@ -1,0 +1,53 @@
+### Logs ###
+logs/
+*.log
+logs/*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+stacktrace.log
+.out/
+
+### Sistema Operacional ###
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.swn
+
+### Node.js ###
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.npmrc
+.pnp.*
+.pnp.cjs
+.pnp.loader.mjs
+
+### Java ###
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+replay_pid*
+
+### Maven ###
+.mvn/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+dependency-reduced-pom.xml
+
